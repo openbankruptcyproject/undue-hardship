@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://undue-hardship.openbankruptcyproject.org/sitemap.xml
