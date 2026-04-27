@@ -3,33 +3,187 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Undue Hardship Test — Open Bankruptcy Project</title>
-<meta name="description" content="Educational reference on the undue hardship standard for student loan discharge. Brunner test, totality-of-circumstances test, and circuit-level variation.">
+<title>The Undue Hardship Standard — § 523(a)(8) Reference — Open Bankruptcy Project</title>
+<meta name="description" content="Reference page on the undue hardship standard for student loan discharge under 11 U.S.C. § 523(a)(8). The Brunner test, the totality-of-circumstances alternative, and circuit-level variation. Educational, not legal advice.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://undue-hardship.openbankruptcyproject.org/">
 <style>
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-max-width:760px;margin:0 auto;padding:2rem 1rem;line-height:1.6;color:#1a1a1a;background:#fafafa}
-h1{font-size:1.9rem;line-height:1.2;margin:0 0 1rem}
-.lead{font-size:1.1rem;color:#444;margin:0 0 2rem}
-footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #ddd;color:#666;font-size:0.9rem}
+body{font-family:Georgia,'Times New Roman',serif;
+max-width:760px;margin:0 auto;padding:2rem 1rem;line-height:1.7;color:#1a1a1a;background:#fafafa}
+h1,h2,h3{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+h1{font-size:1.95rem;line-height:1.2;margin:0 0 0.5rem}
+h2{font-size:1.35rem;margin:2.5rem 0 0.7rem;border-bottom:2px solid #0c5cb6;padding-bottom:0.3rem}
+h3{font-size:1.1rem;margin:1.5rem 0 0.5rem}
+.tag{display:inline-block;padding:0.15rem 0.6rem;background:#0c5cb6;color:#fff;
+font-size:0.75rem;border-radius:3px;margin-bottom:1rem;font-family:system-ui,-apple-system,sans-serif}
+.lead{font-size:1.1rem;color:#444;margin:0 0 2rem;font-style:italic}
+em{font-style:italic}
+.cite{font-style:italic;color:#555}
+.statute{font-family:Consolas,Menlo,monospace;background:#f0f0f0;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.92em}
+.factor{background:#fff;border:1px solid #ddd;border-radius:6px;padding:1.2rem;margin:1rem 0}
+.factor h3{margin-top:0;font-family:system-ui,-apple-system,sans-serif}
+.callout{padding:1rem 1.2rem;background:#fff8e0;border-left:4px solid #d4a900;margin:1.5rem 0;border-radius:0 4px 4px 0;font-family:system-ui,-apple-system,sans-serif}
+.notice{padding:1rem 1.2rem;background:#f0f4f8;border-left:4px solid #6b8eaf;margin:1.5rem 0;border-radius:0 4px 4px 0;font-family:system-ui,-apple-system,sans-serif;font-size:0.95rem}
+ul{padding-left:1.5rem}
+li{margin-bottom:0.4rem}
+table{width:100%;border-collapse:collapse;margin:1rem 0;background:#fff;font-size:0.95rem;border:1px solid #ddd;font-family:system-ui,-apple-system,sans-serif}
+th,td{padding:0.6rem 0.7rem;text-align:left;border-bottom:1px solid #eee;vertical-align:top}
+th{background:#f0f4f8;font-weight:600}
+footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #ddd;color:#666;font-size:0.9rem;font-family:system-ui,-apple-system,sans-serif}
 a{color:#0c5cb6}
-.tag{display:inline-block;padding:0.15rem 0.6rem;background:#0c5cb6;color:#fff;font-size:0.75rem;border-radius:3px;margin-bottom:1rem}
+blockquote{margin:1rem 0;padding:0.5rem 1rem;border-left:3px solid #0c5cb6;background:#fff;font-size:0.97em}
 </style>
 </head>
 <body>
-<span class="tag">Open Bankruptcy Project</span>
-<h1>Undue Hardship: The § 523(a)(8) Standard</h1>
-<p class="lead">Educational reference on the undue hardship standard for student loan discharge. Brunner test, totality-of-circumstances test, and circuit-level variation. Plain-language explanation grounded in published case law. Not legal advice.</p>
-<p><strong>Status:</strong> Page under construction. Empirical research and educational content
-in preparation. Check back shortly.</p>
+
+<span class="tag">Open Bankruptcy Project · Reference</span>
+
+<h1>The Undue Hardship Standard</h1>
+
+<p class="lead">A reference on the legal standard for discharging student loans in bankruptcy
+under <span class="statute">11 U.S.C. § 523(a)(8)</span>. The Brunner test, the
+totality-of-circumstances alternative, and how the standard varies by circuit.</p>
+
+<h2>The statutory hook</h2>
+
+<p>Federal student loans (and certain other education loans) are presumptively non-dischargeable
+under <span class="statute">11 U.S.C. § 523(a)(8)</span>, except where excepting them from
+discharge would impose an &ldquo;undue hardship&rdquo; on the debtor and the debtor&rsquo;s
+dependents. The statute does not define <em>undue hardship</em>. Courts have built the standard
+through case law.</p>
+
+<blockquote>
+&ldquo;A discharge under section 727, 1141, 1192, 1228(a), 1228(b), or 1328(b) of this title does
+not discharge an individual debtor from any debt &mdash; ... (8) unless excepting such debt from
+discharge under this paragraph would impose an undue hardship on the debtor and the debtor&rsquo;s
+dependents, for &mdash; [federal student loans, qualified educational loans, etc.]&rdquo;
+&mdash; <span class="statute">11 U.S.C. § 523(a)(8)</span>
+</blockquote>
+
+<h2>The Brunner test</h2>
+
+<p>The most widely applied test for undue hardship comes from
+<em class="cite">Brunner v. New York State Higher Education Services Corp.</em>, 831 F.2d 395
+(2d Cir. 1987). Brunner adopted a three-part standard, and the debtor bears the burden of proving
+all three elements:</p>
+
+<div class="factor">
+<h3>1. Minimal standard of living</h3>
+<p>The debtor cannot maintain, based on current income and expenses, a &ldquo;minimal&rdquo;
+standard of living for themselves and any dependents if forced to repay the loans. Courts examine
+actual budgets, not aspirational ones &mdash; the question is whether basic subsistence (housing,
+food, transportation, medical care) is genuinely unaffordable while servicing the loan.</p>
+</div>
+
+<div class="factor">
+<h3>2. Persistence of the hardship</h3>
+<p>Additional circumstances exist indicating that the inability to repay is likely to persist
+for a significant portion of the loan repayment period. Temporary financial setbacks generally
+do not satisfy this prong; courts look for evidence of long-term constraints (disability, age,
+limited earning capacity, ongoing care obligations).</p>
+</div>
+
+<div class="factor">
+<h3>3. Good-faith repayment efforts</h3>
+<p>The debtor has made good-faith efforts to repay the loans. Courts evaluate whether the
+debtor explored reasonable alternatives &mdash; deferment, forbearance, income-driven repayment
+plans, attempts to maximize income &mdash; before seeking discharge.</p>
+</div>
+
+<p>The Brunner test has been adopted, in some form, by the majority of federal circuits.</p>
+
+<h2>The totality-of-circumstances alternative</h2>
+
+<p>The Eighth Circuit and the First Circuit apply a less rigid &ldquo;totality of the
+circumstances&rdquo; approach rather than the three-part Brunner framework. The totality test
+takes into account:</p>
+
+<ul>
+<li>The debtor&rsquo;s past, present, and reasonably reliable future financial resources;</li>
+<li>A calculation of the debtor&rsquo;s and dependents&rsquo; reasonable necessary living expenses;
+and</li>
+<li>Any other relevant facts and circumstances surrounding the debtor&rsquo;s particular
+situation.</li>
+</ul>
+
+<p>The Eighth Circuit articulated this standard in <em class="cite">In re Long</em>, 322 F.3d 549
+(8th Cir. 2003). The First Circuit follows a similar approach.</p>
+
+<h2>Circuit-level overview</h2>
+
+<table>
+<thead><tr><th>Circuit</th><th>Test applied</th></tr></thead>
+<tbody>
+<tr><td>1st Circuit</td><td>Totality of the circumstances</td></tr>
+<tr><td>2nd Circuit</td><td>Brunner (originated this test)</td></tr>
+<tr><td>3rd Circuit</td><td>Brunner</td></tr>
+<tr><td>4th Circuit</td><td>Brunner</td></tr>
+<tr><td>5th Circuit</td><td>Brunner</td></tr>
+<tr><td>6th Circuit</td><td>Brunner</td></tr>
+<tr><td>7th Circuit</td><td>Brunner</td></tr>
+<tr><td>8th Circuit</td><td>Totality of the circumstances</td></tr>
+<tr><td>9th Circuit</td><td>Brunner</td></tr>
+<tr><td>10th Circuit</td><td>Brunner</td></tr>
+<tr><td>11th Circuit</td><td>Brunner</td></tr>
+<tr><td>D.C. Circuit</td><td>No controlling precedent at the circuit level; lower courts in the
+district have applied Brunner</td></tr>
+</tbody>
+</table>
+
+<p>Within each Brunner-adopting circuit, the application of the three prongs varies considerably.
+Some courts apply Brunner with strict rigor; others apply it more flexibly. Recent post-2022
+DOJ-guidance decisions have, in many cases, applied Brunner with greater attention to the
+totality of debtor circumstances even within Brunner&rsquo;s formal three-part structure.</p>
+
+<h2>The November 2022 DOJ guidance</h2>
+
+<p>On November 17, 2022, the Department of Justice and Department of Education issued a joint
+guidance memorandum revising how the U.S. responds to undue-hardship adversary proceedings
+involving federal student loans. Under the guidance, DOJ attorneys use a streamlined attestation
+form completed by the debtor and apply internal criteria to decide whether to stipulate to
+discharge or contest the AP. Where DOJ does not contest, courts may grant discharge based on
+stipulation rather than fully litigated factual findings.</p>
+
+<p>The guidance is administrative; it does not change <span class="statute">§ 523(a)(8)</span>
+or the Brunner/totality case law. But it has materially changed the procedural landscape: the
+<a href="https://523a8.openbankruptcyproject.org/">Open Bankruptcy Project's empirical research</a>
+shows roughly a sevenfold increase in § 523(a)(8) AP filings against the U.S. Department of
+Education following the guidance.</p>
+
+<h2>Important limits on this page</h2>
+
+<div class="callout">
+<strong>This page describes general law &mdash; not your case.</strong> Whether the undue-hardship
+standard is met in any specific situation depends on the facts of that case, the controlling
+circuit precedent, and the application of that precedent by the assigned judge. Courts have
+reached different conclusions on similar-sounding facts.
+</div>
+
+<p>The cases cited on this page (Brunner, In re Long) are listed for reference. Citing them in a
+filing requires confirming the current authority of each citation in the relevant jurisdiction
+and reading the original opinions in full. Outcomes of post-2022 § 523(a)(8) APs are an active
+area of legal development; precedents continue to evolve.</p>
+
+<h2>Related research and reference pages</h2>
+
+<ul>
+<li><a href="https://523a8.openbankruptcyproject.org/">§ 523(a)(8) Empirical Research</a>
+&mdash; open dataset of student-loan AP filings across U.S. bankruptcy courts</li>
+<li><a href="https://studentloans.openbankruptcyproject.org/">Student Loan Discharge in Bankruptcy
+&mdash; Consumer Guide</a> &mdash; plain-language explainer</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/523">11 U.S.C. § 523 on Cornell Law</a>
+&mdash; full statutory text</li>
+</ul>
+
 <footer>
-<p>This page provides general information for educational purposes only. It does not constitute
-legal advice and does not create an attorney-client relationship. For advice on your specific situation,
-consult a licensed bankruptcy attorney in your jurisdiction.</p>
+<p>Last updated April 27, 2026. The information on this page is general legal information for
+educational purposes. It is not legal advice and does not create an attorney-client relationship.
+For advice on a specific situation, consult a licensed bankruptcy attorney in the relevant
+jurisdiction.</p>
 <p><strong>Open Bankruptcy Project</strong> &mdash; a 501(c)(3) public charity (EIN 41-5159631) &mdash;
 empirical research and free tools for federal bankruptcy law.
 <a href="https://openbankruptcyproject.org/">openbankruptcyproject.org</a></p>
 </footer>
+
 </body>
 </html>
